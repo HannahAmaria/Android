@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkpurple"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp"
+    tools:context=".CategoryActivity">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/back_arrow" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="-30dp"
+        android:layout_marginBottom="30dp"
+        android:text="Categories"
+        android:textAlignment="center"
+        android:textColor="@color/secondary"
+        android:textSize="25sp" />
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="Welcome"
+        android:textAlignment="center"
+        android:textColor="@color/secondary"
+        android:textSize="20sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/easy"
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/purple"
+        android:text="Easy"
+        android:textAlignment="center"
+        android:textColor="@color/primary"
+        android:textSize="25sp"
+        app:cornerRadius="40dp" />
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/medium"
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/purple"
+        android:text="Medium"
+        android:textAlignment="center"
+        android:textColor="@color/primary"
+        android:textSize="25sp"
+        app:cornerRadius="40dp" />
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/hard"
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/purple"
+        android:text="Hard"
+        android:textAlignment="center"
+        android:textColor="@color/primary"
+        android:textSize="25sp"
+        app:cornerRadius="40dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/score"
+        android:layout_width="244dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/purple"
+        android:text="Previous score"
+        android:textAlignment="center"
+        android:textColor="@color/primary"
+        android:textSize="15sp"
+        app:cornerRadius="40dp" />
+
+
+</LinearLayout>
